@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Plants!</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 class="header-main">A plant website</h1>
+        <h2 class="header-sub">for plant things.</h2>
+      </div>
+      <img
+        class="header-picture"
+        src="https://cdn-icons-png.flaticon.com/512/628/628283.png"
+      />
+      <img
+        class="header-picture"
+        src="https://cdn-icons-png.flaticon.com/512/3968/3968246.png"
+      />
+      <img
+        class="header-picture"
+        src="https://cdn-icons-png.flaticon.com/512/5776/5776591.png"
+      />
+    </header>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-list-items"><a href="/index.html">home</a></li>
+        <li class="nav-list-items">
+          <a href="./pages/philodendron.html">placeholder</a>
+        </li>
+        <li class="nav-list-items">
+          <a href="./pages/alocasia.html">placeholder</a>
+        </li>
+        <li class="nav-list-items">
+          <a href="./pages/maranta.html">placeholder</a>
+        </li>
+      </ul>
+    </nav>
+    <home></home>
+    <footer class="footy">
+      <span>&copy; 2023 Allison Farrell</span>
+    </footer>
+    <script src="./components/home.riot" type="riot"></script>
+    <script>
+      riot.mount("home");
+    </script>
+  </body>
+</html>
